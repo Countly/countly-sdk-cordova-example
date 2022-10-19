@@ -9,9 +9,7 @@ This repository includes example projects of Cordova and Ionic to demonstrate ho
 * Send a view (automatic or manual)
 * Generate a crash (e.g out of bounds, null pointer, kill, etc or a custom crash log)
 
-
 This app serves as a simple example for building an app using the [Countly Cordova SDK](https://github.com/Countly/countly-sdk-cordova).
-
 
 ## Running the Example app
 
@@ -31,12 +29,14 @@ If you use both Community Edition and Enterprise Edition, use your own domain na
 
 ### Building
 Clone this repository
+
 ```sh
 git clone https://github.com/Countly/countly-sdk-cordova-example.git
 ```
 
 ### For Cordova Project
-```
+
+```sh
 cd countly-sdk-cordova-example/app_cordova
 Open `www/index.html` and update `"YOUR_API_KEY"` with your Countly application Key and `"https://try.count.ly"` with your server URL.
 npm install
@@ -45,7 +45,8 @@ cordova run (android|ios)...
 ```
 
 ### For Ionic Project
-```
+
+```sh
 cd countly-sdk-cordova-example/app_ionic
 Open `src/app/home/home.page.ts` and update `"YOUR_API_KEY"` with your Countly App Key and `"https://try.count.ly"` with your server URL.
 npm install
@@ -56,7 +57,8 @@ ionic cordova run (android|ios)...
 ```
 
 For Automatic device traces, you must call `Countly.applicationOnCreate();` right after your application class `onCreate` like:
-```
+
+```sh
 public class App extends Application {
     @Override
     public void onCreate() {
