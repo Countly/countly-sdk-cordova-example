@@ -32,15 +32,7 @@ This app serves as a simple example for building an app using the [Countly Cordo
 To run the Example App, you need to be able to build Cordova apps for Android and iOS on your machine.
 Refer to the [Apache Cordova getting started guide](https://cordova.apache.org/#getstarted) if you need help setting up your Cordova environment.
 
-### Application key
-Also called "appKey" as shorthand. The application key is used to identify for which application this information is tracked. You receive this value by creating a new application in your Countly dashboard and accessing it in its application management screen.
-
-Note: Ensure you are using the App Key (found under Management -> Applications) and not the API Key. Entering the API Key will not work.
-
-### Server URL
-If you are using Countly Enterprise Edition trial servers, use https://try.count.ly, https://us-try.count.ly or https://asia-try.count.ly It is basically the domain from which you are accessing your trial dashboard.
-
-If you use both Community Edition and Enterprise Edition, use your own domain name or IP address, such as https://example.com or https://IP (if SSL has been set up).
+For more information on how to acquire your application key (appKey) and server URL, check [here](https://support.count.ly/hc/en-us/articles/900000908046-Getting-started-with-SDKs#acquiring-your-application-key-and-server-url).
 
 ### Building
 Clone this repository
