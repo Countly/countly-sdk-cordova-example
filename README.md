@@ -55,12 +55,8 @@ cordova run (android|ios)...
 
 ```sh
 cd countly-sdk-cordova-example/app_ionic
-Open `src/app/home/home.page.ts` and update `"YOUR_API_KEY"` with your Countly App Key and `"https://try.count.ly"` with your server URL.
-npm install
-npm run build
-ionic cordova platform add (android|ios)...
-ionic cordova prepare (android|ios)...
-ionic cordova run (android|ios)...
+Place your google-services.json file under your root project folder. i.e. above www folder.
+run this script ./configure_example.sh
 ```
 
 For Automatic device traces, you must call `Countly.applicationOnCreate();` right after your application class `onCreate` like:
