@@ -1,4 +1,4 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/5632f066ad7646a7beec7f3b50000ee1)](https://www.codacy.com/gh/Countly/countly-sdk-cordova-example/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Countly/countly-sdk-cordova-example&amp;utm_campaign=Badge_Grade)
+## This SDK has been sunsetted. This repo has been archived and will not be maintained anymore. 
 
 ## Countly Cordova and Ionic SDK test applications
 
